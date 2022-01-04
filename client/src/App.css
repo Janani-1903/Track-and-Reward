@@ -1,0 +1,178 @@
+.App {
+  background-color: #282c34;
+  color: aqua;
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.registration {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(13, 212, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.registration input {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.registration label{
+  margin: auto;
+  font-size: 20px;
+}
+
+.registration button {
+  background-color: whitesmoke;
+  border-width: thick;
+  border-color: #61dafb;
+  color:  #06556b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+.login {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: rgb(13, 212, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.login input {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.login label{
+  margin: auto;
+  font-size: 20px;
+}
+
+.login button {
+  background-color: whitesmoke;
+  border-width: thick;
+  border-color: #61dafb;
+  color:  #06556b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.displayInitiatives {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.displayButtons button {
+  background-color: whitesmoke;
+  border-width: thick;
+  border-color: #61dafb;
+  color:  #06556b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px;
+}
+
+.displayInitiatives button {
+  background-color: whitesmoke;
+  border-width: thin;
+  border-color: #61dafb;
+  color:  #06556b;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 20px;
+}
+.addInitiatives {
+  width: 500px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: rgb(13, 212, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.addInitiatives input {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.addInitiatives button {
+  background-color: whitesmoke;
+  border-width: thick;
+  border-color: #61dafb;
+  color:  #06556b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.addInitiatives label{
+  margin: auto;
+  font-size: 20px;
+}
